@@ -76,7 +76,7 @@ function selectDefaultTab() {
 	if(!tab) {
 		var elem = $('.tab-history.selected').not('#tab-history_all')[0];
 		if(elem) {
-			var id = elem.attr('id');
+			var id = elem.id;
 			tab = id.substring(4, id.length);
 		}
 	}
